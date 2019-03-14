@@ -1,1 +1,6 @@
-# mykitchenproject
+## mykitchenproject
+MyKitchen project is a meal planning and recipes search website. I created this project using Bootstrap along with HTML and CSS. 
+
+Will Add more details and credit image creator......
+
+## TO BE CONTINUED... 
