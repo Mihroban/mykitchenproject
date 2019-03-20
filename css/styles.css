@@ -6,12 +6,21 @@ h1{
   font-size: 3.5rem;
   font-weight: 900;
   line-height: 1.5;
-
   }
 
+h2{
+  font-size:2.3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
 h3{
-  font-weight: bold;
   font-size: 1.5rem;
+  font-weight: 900;
+}
+
+p{
+  color:#8f8f8f;
 }
 
 #title{
@@ -23,16 +32,18 @@ h3{
   }
 
 /*** Title Image ***/
+
 .phone-image{
     height: 570px;
     width: 450px;
+    margin-top: 10%;
     transform: rotate(20deg);
+    position: absolute;
   }
-
 
 /*** Navigation Bar ***/
 .container-fluid{
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 .navbar{
@@ -50,7 +61,7 @@ h3{
 }
 
 .nav-item{
-  padding: 0 20px;
+  padding: 0 10px;
 }
 
 .nav-link{
@@ -67,13 +78,100 @@ h3{
 
 /*** Feature Icons ********/
 #features{
-  padding: 5% 12%;
+  background-color: #fff;
+  padding: 7% 12%;
+  position: relative;
+  z-index: 1;
 }
+
 
 .feature-box{
   text-align: center;
   padding: 5%;
 }
 .icon{
-  color:#a7d229;
+  color:#e74a60;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #f0da32;
+}
+
+
+/*** Testimonial Section ********/
+#testimonials{
+  text-align: center;
+  background-color:#ff4c68;
+  color:#fff;
+}
+
+.testimonial-image{
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding:5% 12%;
+}
+
+/**** Press Section ****/
+#press{
+  background-color:#ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width:15%;
+  margin: 10px 30px 50px;
+}
+
+
+/*** Pricing Section ****/
+#pricing{
+  text-align: center;
+  padding:50px 150px;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+/*** Call To Action Section ****/
+#cta{
+  background-color:#f0db32;
+  padding: 7% 12%;
+  text-align: center;
+}
+
+.cta-header{
+  color:#fff;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/*** Footer Section ***/
+#footer{
+  text-align: center;
+  padding: 5% 12%;
+}
+
+.fab-icons{
+  /*padding: 0 10px 30px;*/
+  margin: 15px 10px;
+}
+
+/*** Media Query***/
+@media only screen and (max-width:994px){
+#title{
+  text-align: center;
+  }
+.phone-image{
+  position: static;
+  transform: rotate(0deg);
+}
+
 }
