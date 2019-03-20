@@ -101,7 +101,7 @@ p{
 /*** Testimonial Section ********/
 #testimonials{
   text-align: center;
-  background-color:#68d6d2;
+  background-color:#9b7afc;
   color:#fff;
 }
 
@@ -118,7 +118,7 @@ p{
 
 /**** Press Section ****/
 #press{
-  background-color:#68d6d2;
+  background-color:#9b7afc;
   text-align: center;
   padding-bottom: 3%;
 }
@@ -141,7 +141,7 @@ p{
 
 /*** Call To Action Section ****/
 #cta{
-  background-color:#705bd0;
+  background-color:#f0db32;
   padding: 7% 12%;
   text-align: center;
 }
